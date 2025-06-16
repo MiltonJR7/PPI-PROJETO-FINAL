@@ -11,7 +11,6 @@ var listaJogadores = [];
 const app = express();
 app.use(cookieParser());
 app.use(express.urlencoded({extended: true}));
-app.use(express.static('public'));
 
 app.use(session({
     secret: "M1nh4Ch4v3S3cr3t4",
@@ -46,7 +45,7 @@ app.get("/", verificarAutenticacao, (requisicao, resposta) => {
             <body>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
-                        <img src="img/logo.png" alt="logoSite" class="img-fluid rounded-circle mt-2" style="width: 60px; height: 60px;">
+                        <img src="https://i.postimg.cc/N0z0Qrb5/logo.png" alt="logoSite" class="img-fluid rounded-circle mt-2" style="width: 60px; height: 60px;">
                         <a class="navbar-brand" href="#" style="margin-left: 20px;">
                             GoodTeam
                         </a>
@@ -92,7 +91,7 @@ app.get("/", verificarAutenticacao, (requisicao, resposta) => {
                         </div>
                     </div>
                 </nav>
-                <img src="img/fundo.png" alt="fundoSite">
+                <img src="https://i.postimg.cc/HLxxGtwq/fundo.png" alt="fundoSite">
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
             </body>
             </html>
