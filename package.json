@@ -1,0 +1,27 @@
+{
+  "name": "ppi-projeto-final",
+  "version": "1.0.0",
+  "description": "Projeto Final de \"Programacao para internet\" UNOESTE",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiltonJR7/PPI-PROJETO-FINAL.git"
+  },
+  "author": "Milton Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiltonJR7/PPI-PROJETO-FINAL/issues"
+  },
+  "homepage": "https://github.com/MiltonJR7/PPI-PROJETO-FINAL#readme",
+  "dependencies": {
+    "cookie": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  }
+}
